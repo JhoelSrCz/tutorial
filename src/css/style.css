@@ -1,0 +1,30 @@
+ul{
+    color: cadetblue;
+}
+h1{
+    color:darkgrey;
+}
+h2{
+    color: cadetblue;
+}
+h3{
+    color: bisque;
+}
+p{
+    color: aquamarine;
+}
+a{
+    color: rgba(59, 9, 30, 0.5);
+}
+body{
+    background-color: seashell;
+}
+header{
+    background-color: darkcyan;
+}
+section{
+    background-color:salmon;
+}
+footer{
+    background-color: lightblue;
+}
