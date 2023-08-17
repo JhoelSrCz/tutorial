@@ -14,17 +14,38 @@ p{
     color: aquamarine;
 }
 a{
-    color: rgba(59, 9, 30, 0.5);
+    color: azure;
 }
 body{
     background-color: seashell;
 }
 header{
-    background-color: darkcyan;
+    background-color: transparent;
 }
 section{
     background-color:salmon;
 }
 footer{
     background-color: lightblue;
+}
+.menu{
+    background-color: cadetblue;
+}
+.menu__texto{
+    color: azure;
+}
+.faq{
+    background-color: cadetblue;
+}
+.faq__titulo{
+    color: azure;
+}
+.faq__subtitulo{
+    color: beige;
+}
+.faq__descripcion{
+    color: burlywood;
+}
+.pie{
+    text-align: center;
 }
