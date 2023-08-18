@@ -1,51 +1,28 @@
-ul{
-    color: cadetblue;
-}
-h1{
-    color:darkgrey;
-}
-h2{
-    color: cadetblue;
-}
-h3{
-    color: bisque;
-}
-p{
-    color: aquamarine;
-}
-a{
-    color: azure;
-}
-body{
-    background-color: seashell;
-}
 header{
-    background-color: transparent;
-}
-section{
-    background-color:salmon;
-}
-footer{
-    background-color: lightblue;
+    background-image: url(https://images.unsplash.com/photo-1610926358710-5859736d0ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: top;
+    background-size: cover;
 }
 .menu{
-    background-color: cadetblue;
+    background-color: transparent;
 }
-.menu__texto{
-    color: azure;
+.menu__img{
+    list-style: none;
 }
-.faq{
-    background-color: cadetblue;
+.menu__avatar{
+    list-style: none;
 }
-.faq__titulo{
-    color: azure;
-}
-.faq__subtitulo{
-    color: beige;
-}
-.faq__descripcion{
-    color: burlywood;
-}
-.pie{
-    text-align: center;
+.menu__texto a{
+    color: black;
+    margin: 5px 20px;
+    border: ridge;
+    border-radius: 35px;
+    padding: 3px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: oblique;
+    list-style: none;
 }
