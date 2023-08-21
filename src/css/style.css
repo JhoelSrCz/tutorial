@@ -1,9 +1,55 @@
-header{
-    background-image: url(https://images.unsplash.com/photo-1610926358710-5859736d0ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+:root{
+    --menu-color:aqua;
+    --texto-color:red;
+    --texto-hover:black;
+    --subtitulo-color:black;
+    --descripcion-color:rgb(8, 61, 69);
+    --titulo-font-size:60px;
+}
+body{
+    background:url(https://images.unsplash.com/photo-1610926358710-5859736d0ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+header{
+    background: rgba(0,0,0,0.7);
     background-position: center;
     background-attachment: top;
     background-size: cover;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: left;
+}
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: black;
+    border-radius: 30px;
 }
 .menu{
     background-color: transparent;
@@ -12,10 +58,16 @@ header{
     list-style: none;
 }
 .menu__avatar{
+    list-style: none;;
+}
+.menu__avatar:nth-child(1){
+    color: white;
+}
+.menu__texto{
     list-style: none;
 }
-.menu__texto a{
-    color: black;
+.menu a{
+    color: white;
     margin: 5px 20px;
     border: ridge;
     border-radius: 35px;
@@ -24,5 +76,26 @@ header{
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-style: oblique;
-    list-style: none;
+}
+.pie:active{
+    background: yellow;
+    color: red;
+}
+.faq__titulo{
+    font-size: var(--titulo-font-size);
+}
+.faq__subtitulo{
+    color: var(--subtitulo-color);
+}
+.faq__descripcion{
+    color: var(--descripcion-color);
+}
+footer{
+    background: rgba(0,0,0,0.7);
+}
+.pie{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
 }
