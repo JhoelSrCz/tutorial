@@ -1,94 +1,78 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
-:root{
-    --menu-color:aqua;
-    --texto-color:red;
-    --texto-hover:black;
-    --subtitulo-color:black;
-    --descripcion-color:rgb(8, 61, 69);
-    --titulo-font-size:60px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background:url(https://images.unsplash.com/photo-1610926358710-5859736d0ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}
-header{
-    background: rgba(0,0,0,0.7);
-    background-position: center;
-    background-attachment: top;
-    background-size: cover;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-nav {
-    float: left;
-}
-  
-nav ul {
-    list-style: none;
-    overflow: hidden; 
-}
-  
-nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-nav ul li:hover {
-    background: black;
-    border-radius: 30px;
+    background-color: #5a777d;
 }
 .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+}
+.enlaces{
     background-color: transparent;
 }
-.menu__img{
-    list-style: none;
-}
-.menu__avatar{
-    list-style: none;;
-}
-.menu__avatar:nth-child(1){
+.enlaces__texto{
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
     color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.5s;
 }
-.menu__texto{
-    list-style: none;
+.enlaces__texto:hover{
+    background-color: #a581ff5b;
+    color: deepskyblue;
+    text-decoration: underline white;
 }
-.menu a{
-    color: white;
-    margin: 5px 20px;
-    border: ridge;
-    border-radius: 35px;
-    padding: 3px 20px;
+.fondo{
+    background-image: url("https://images.unsplash.com/photo-1610926358710-5859736d0ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwZGUlMjBiaWNpY2xldGF8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    position: relative;
+    height: 750px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    position: absolute;
+    top: 75%;
+    left: 45%;
     font-size: 30px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-style: oblique;
+    padding: 5px;
+    border-radius: 50px;
 }
-.pie:active{
-    background: yellow;
-    color: red;
+.titulo:hover{
+    background-color: rgb(48, 100, 120);
 }
-.faq__titulo{
-    font-size: var(--titulo-font-size);
+.faq{
+    margin: 25px;
+}
+.faq__img{
+    border: 2px solid black;
+    top: 100px;
+    left: 50px;
+    width: 1000px;
 }
 .faq__subtitulo{
-    color: var(--subtitulo-color);
+    color: rgb(19, 18, 18);
+    font-size: 40px;
+    text-decoration: underline;
 }
 .faq__descripcion{
-    color: var(--descripcion-color);
+    color: rgb(19, 18, 18);
+    font-size: 25px;
 }
 footer{
     background: rgba(0,0,0,0.7);
@@ -98,4 +82,167 @@ footer{
     padding: 10px;
     color: #fff;
     text-decoration: none;
+}
+.pie:active{
+    background: rgb(131, 235, 232);
+    color: rgb(33, 30, 30);
+}
+.cleta-1{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cleta-2{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.fondo-contacto{
+    background-image: url("https://previews.123rf.com/images/makstrv/makstrv2212/makstrv221200024/195382946-logotipo-de-mtb-dise%C3%B1o-de-impresi%C3%B3n-de-camiseta-de-bicicleta-de-monta%C3%B1a-ilustraci%C3%B3n-vectorial.jpg");
+    background-position: top center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.ctotexto{
+    font-size: 30px;
+    color: #222;
+}
+.btn-1, .btn-2{
+    font-size: 20px;
+    color: #222;
+    background-color: transparent;
+}
+.btn-1:hover{
+    background-color: #275e61;
+}
+.btn-2:hover{
+    background-color: #275e61;
+}
+.ctotexto-innom{
+    font-size: 20px;
+}
+.ctotexto-incor{
+    font-size: 20px;
+}
+.ctotexto-inmen{
+    font-size: 20px;
+}
+.acceso{
+    color: aliceblue;
+    animation-name: color-bici;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.acceso1{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.acceso2{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.acceso3{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.acceso4{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.acceso5{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.acceso6{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.compo{
+    color: aliceblue;
+    animation-name: color-bici;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.compo1{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.compo2{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.compo3{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.compo4{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.compo5{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.marca{
+    color: aliceblue;
+    animation-name: color-bici;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.marca1{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.marca2{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.marca3{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+@keyframes color-bici{
+    0%{
+        background: dimgray;
+    }
+    50%{
+        background-color: darkblue;
+    }
+    100%{
+        background: black;
+    }
 }
