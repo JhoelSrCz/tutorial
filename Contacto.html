@@ -4,29 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <section>
-        <form action="#" method="post">
-        <ul>
-            <h1>Llena tus Datos</h1>
+  <header class="enlaces">    
+      <nav>
+          <ul>
             <li>
-              <label for="name">Nombre:</label>
-              <input type="text" id="name" name="user_name" />
+              <a class="enlaces__texto" href="../indexhtml5.html">Inicio</a>
             </li>
             <li>
-              <label for="mail">Correo electrónico:</label>
-              <input type="email" id="mail" name="user_mail" />
+              <a class="enlaces__texto" href="Bicicletas.html">Bicicletas</a>
             </li>
             <li>
-              <label for="msg">Mensaje:</label>
-              <textarea id="msg" name="user_message"></textarea>
+              <a class="enlaces__texto" href="Accesorios.html">Accesorios</a>
             </li>
-            <li class="button">
-                <button type="submit">Envíe su mensaje</button>
+            <li>
+              <a class="enlaces__texto" href="Componentes.html">Componentes</a>
+            </li>
+            <li>
+               <a class="enlaces__texto" href="Marcas.html">Marcas</a>
+            </li>
+            <li>
+              <a class="enlaces__texto" href="Contacto.html">Contacto</a>
             </li>
           </ul>
-        </form>
-    </section>
+      </nav>
+  </header>
+  <section class="fondo-contacto">
+    <div class="ctotexto">
+      <form action="#" method="post">          
+        <article>
+          <h1>EL MEJOR JUGAR PARA TI</h1>
+          <p>ESTAMOS A TU DISPONIBILIDAD.<br> ¿HABLAMOS?</p>
+        </article>
+        <button class="btn-1" type="submit">CONTACTA CON NOSOTROS</button>
+        <h2>LLENA LOS CASILLEROS</h2>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input class="ctotexto-innom" type="text" id="nombre" name="nombre" placeholder="Tu nombre" />
+        <br>
+        <label for="correo">Correo Electronico:</label>
+        <input class="ctotexto-incor" type="email" id="correo" name="correo" placeholder="texto@gmail.com">
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea class="ctotexto-inmen" cols="50" rows="6" id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+        <br>
+        <button class="btn-2" type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
