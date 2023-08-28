@@ -7,33 +7,40 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #5a777d;
+    background-color: #edfafd;
 }
-.menu{
+.encabezado{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
     width: 1000px;
 }
-.enlaces{
-    background-color: transparent;
+nav ul{
+    list-style: none;
+    overflow: hidden;
 }
-.enlaces__texto{
-    margin: 60px;
+nav ul li{
+    float: left;
+    font-size: 20px;
+}
+.menu{
+    background-color: rgba(33, 30, 30, 0.5)
+}
+.menu__texto{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1000px;
+    margin: 0px 80px;
+    padding: 20px;
     color: white;
-    font-size: 15px;
+    font-weight: 700;
     text-decoration: none;
     transition: 0.5s;
 }
-.enlaces__texto:hover{
-    background-color: #a581ff5b;
+.menu__texto:hover{
+    background-color: white;
+    border-radius: 50px;
     color: deepskyblue;
-    text-decoration: underline white;
+    text-decoration: underline deepskyblue;
 }
 .fondo{
     background-image: url("https://images.unsplash.com/photo-1610926358710-5859736d0ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwZGUlMjBiaWNpY2xldGF8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
@@ -61,6 +68,7 @@ body{
 }
 .faq__img{
     border: 2px solid black;
+    margin: 0px 240px;
     top: 100px;
     left: 50px;
     width: 1000px;
