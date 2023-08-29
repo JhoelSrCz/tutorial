@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -50,15 +48,31 @@ nav ul li{
     background-repeat: no-repeat;
     background-position: top left;
 }
+.frase{
+    color: rgb(16, 15, 15);
+    background-color: whitesmoke;
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    animation: escribiendo 6s steps(20) infinite,
+     pleca 0.7s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
 .titulo{
     color: rgb(255, 255, 255);
-    background-color: black;
+    background-color: #275e61;
     position: absolute;
     top: 75%;
     left: 45%;
     font-size: 30px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .titulo:hover{
     background-color: rgb(48, 100, 120);
@@ -66,21 +80,39 @@ nav ul li{
 .faq{
     margin: 25px;
 }
-.faq__img{
-    border: 2px solid black;
-    margin: 0px 240px;
+.galeria{
+    margin: 0px 500px;
     top: 100px;
     left: 50px;
-    width: 1000px;
+    display: flex;
+    width: 500px;
+    height: 350px;
+    justify-items: center;
+}
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+.galeria img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
+ol{
+    margin: 40px;
+    font-size: 25px;
 }
 .faq__subtitulo{
     color: rgb(19, 18, 18);
-    font-size: 40px;
+    font-size: 25px;
     text-decoration: underline;
 }
 .faq__descripcion{
     color: rgb(19, 18, 18);
-    font-size: 25px;
+    font-size: 19px;
 }
 footer{
     background: rgba(0,0,0,0.7);
@@ -252,5 +284,23 @@ footer{
     }
     100%{
         background: black;
+    }
+}
+@keyframes escribiendo{
+    0%,
+    100%{
+        width: 0;
+    }
+    40%,
+    60%{
+        width: 1070px;
+    }
+    90%{
+        width: 0;
+    }
+}
+@keyframes pleca{
+    50%{
+        border-color: transparent;
     }
 }
