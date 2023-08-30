@@ -139,37 +139,6 @@ footer{
     justify-content: space-between;
     text-align: center;
 }
-.fondo-contacto{
-    background-image: url("https://previews.123rf.com/images/makstrv/makstrv2212/makstrv221200024/195382946-logotipo-de-mtb-dise%C3%B1o-de-impresi%C3%B3n-de-camiseta-de-bicicleta-de-monta%C3%B1a-ilustraci%C3%B3n-vectorial.jpg");
-    background-position: top center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-}
-.ctotexto{
-    font-size: 30px;
-    color: #222;
-}
-.btn-1, .btn-2{
-    font-size: 20px;
-    color: #222;
-    background-color: transparent;
-}
-.btn-1:hover{
-    background-color: #275e61;
-}
-.btn-2:hover{
-    background-color: #275e61;
-}
-.ctotexto-innom{
-    font-size: 20px;
-}
-.ctotexto-incor{
-    font-size: 20px;
-}
-.ctotexto-inmen{
-    font-size: 20px;
-}
 .acceso{
     color: aliceblue;
     animation-name: color-bici;
