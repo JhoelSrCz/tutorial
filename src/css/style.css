@@ -114,28 +114,36 @@ ol{
     color: rgb(19, 18, 18);
     font-size: 19px;
 }
-footer{
-    background: rgba(0,0,0,0.7);
-}
-.pie{
-    display: block;
-    padding: 10px;
+footer {
+    background-color: #333;
     color: #fff;
-    text-decoration: none;
-}
-.pie:active{
-    background: rgb(131, 235, 232);
-    color: rgb(33, 30, 30);
-}
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #1da1f2;
+  }
 .cleta-1{
     padding: 10px 0px;
-    display: flex;
+    display: block;
     justify-content: space-between;
     text-align: center;
 }
 .cleta-2{
     padding: 10px 0px;
-    display: flex;
+    display: block;
     justify-content: space-between;
     text-align: center;
 }
@@ -148,37 +156,31 @@ footer{
 }
 .acceso1{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .acceso2{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .acceso3{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .acceso4{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .acceso5{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .acceso6{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
@@ -191,31 +193,26 @@ footer{
 }
 .compo1{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .compo2{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .compo3{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .compo4{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .compo5{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
@@ -228,19 +225,16 @@ footer{
 }
 .marca1{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .marca2{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .marca3{
     padding: 10px 0px;
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
